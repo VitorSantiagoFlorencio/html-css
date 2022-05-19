@@ -157,7 +157,7 @@ form .botão[type="submit"]:hover {
     height: auto;
 }
 footer {
-    max-width: 44em;
+    width: 50%;
     display: flex;
     flex-direction: column;
     margin-bottom: 60px;
