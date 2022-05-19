@@ -159,6 +159,8 @@ form .botão[type="submit"]:hover {
 footer {
     width: 50%;
     display: flex;
+    padding-right: 10px;
+    padding-left: 10px;
     flex-direction: column;
     margin-bottom: 60px;
 }
