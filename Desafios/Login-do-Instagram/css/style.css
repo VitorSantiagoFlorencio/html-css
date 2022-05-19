@@ -206,4 +206,8 @@ footer select {
         margin-right: 0;
     }
 
+    footer ul {
+        width: 100%;
+    }
+
 }
