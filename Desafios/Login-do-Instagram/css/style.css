@@ -199,4 +199,8 @@ footer select {
     .direita {
         margin: 0% auto;
     }
+
+    .conteiner {
+        margin-right: 0;
+    }
 }
