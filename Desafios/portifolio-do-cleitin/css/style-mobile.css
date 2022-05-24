@@ -1,0 +1,367 @@
+
+@media screen and (max-width: 890px){
+
+    body {
+        width: 100vw;
+        overflow-x: hidden;
+        position: relative;
+        display: block;
+        align-items: center;
+    }
+    
+    .nav-bar {
+        display: none;
+    }
+
+    .direita {
+        position: absolute;
+        width: 100%;
+        height: fit-content;
+        margin: 0;
+    }
+
+    .home-conteiner {
+        width: 100%;
+        height: 635px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .text {
+        width: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+    }
+
+    .text p {
+        font-size: 20px;
+    }
+
+    .text h1 {
+        font-size: 40px;
+    }
+
+    .cleitin {
+        display: none;
+    }
+
+    .cleitin-2 {
+        left: -10px;
+        position: absolute;
+        display: block;
+        overflow-x: hidden;
+    }
+
+    .circulo {
+        width: 225px;
+        top: 60px;
+    }
+
+    .quadrado {
+        width: 140px;
+        top: 330px;
+        left: 240px;
+    }
+
+    .onda {
+        width: 141px;
+        height: 82px;
+        top: 640px;
+        left: -30px;
+    }
+
+    .sobre-conteiner {
+        width: 100%;
+        height: 1400px;
+    }
+
+    .sobre-conteiner h1 {
+        font-size: 30px;
+    }
+
+    .linha-de-perfil img {
+        width: 34px;
+    }
+
+    .linha::before{
+        content: '';
+        width: 77px;
+        height: 2px;
+        border-radius: 40px;
+        display: block;
+        opacity: 40%;
+        background-color: black;
+    }
+
+    .Olá_cleitin {
+        width: 100%;
+        height: 310px;
+        padding: 0px 20px;
+    }
+
+    .Olá_cleitin h2 {
+        font-size: 24px;
+    }
+
+    .Olá_cleitin p {
+        padding: 0;
+        font-size: 12px;
+    }
+
+    .informações {
+        gap: 3px;
+    }
+
+    .foto-de-cleitin {
+        width: 170px;
+        position: relative;
+        z-index: -1;
+    }
+
+    .cleitin-13 {
+        width: 290px;
+        top: 40px;
+        left: -90px;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .cleitin-overlay {
+        width: 130px;
+        top: -20px;
+        left: -10px;
+        z-index: -2;
+    }
+
+    .cleitin-overla {
+        width: 100px;
+        top: 210px;
+        left: 80px;
+    }
+
+    .sobre-cleitin {
+        width: 223px;
+    }
+
+    .informações {
+        height: 500px;
+        display: flex;
+    }
+
+    .sobre-cleitin h3 {
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        font-size: 20px;
+    }
+
+    .sobre-cleitin h3::after {
+        align-items: center;
+        width: 4px;
+        height: 24px;
+    }
+
+    .sobre-cleitin p {
+        width: 236px;
+        margin-top: 10px;
+        font-size: 9px;
+    }
+
+    .aplicativos {
+        width: 238px;
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+    .aplicativos .barra {
+        margin: 0px 0;
+    }
+
+    .aplicativos .barra .informação span {
+        font-size: 10px;
+    }
+
+    .aplicativos .barra .linha-de-progresso {
+        height: 4px;
+    }
+
+    .barra .linha-de-progresso span::after{
+        top: -25px;
+        font-size: 10px;
+        padding: 1px 6px;
+    }
+
+    .pontos_main {
+        width: 354px;
+        height: 209px;
+    }
+
+    .pontos-conteiner {
+        width: 169px;
+        height: 209px;
+        border-radius: 19px;
+    }
+
+    .pontos-conteiner img {
+        width: 25px;
+        margin-bottom: 10px;
+    }
+
+    .pontos-conteiner h3 {
+        font-size: 18px;
+    }
+
+    .pontos-conteiner ul li {
+        font-size: 10px;
+        margin: 8px 0;
+    }
+
+    .perguntas {
+        font-size: 10px;
+    }
+
+    .serviços-conteiner {
+        height: 300px;
+        padding-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .serviços {
+        width: 366px;
+        height: fit-content;
+        
+    }
+
+    .serviços-titulo {
+        font-size: 17px;
+    }
+
+    .serviços-titulo img {
+        width: 28px;
+    }
+
+    .cards-serviços {
+        margin-top: 20px;
+        gap: 16px;
+    }
+
+    .cards {
+        width: 111px;
+        height: 113px;
+        border-radius: 12px;
+    }
+
+    .cards img {
+        width: 23px;
+    }
+
+    .cards h3 {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    .cards p {
+        width: 108px;
+        margin-top: 8px;
+        font-size: 5px;
+    }
+
+    .overla-serviços img {
+        width: 169px;
+    }
+
+    .clique {
+        font-size: 10px;
+    }
+
+    .projetos-conteiner {
+        height: 350px;
+    }
+
+    .projetos-titulo h1 {
+        font-size: 26px;
+    }
+
+    .projetos-cards {
+        width: 388px;
+        height: 184px;
+        gap: 17px;
+        margin-top: 30px;
+    }
+
+    .projetos {
+        width: 118px;
+        height: 84px;
+    }
+
+    .projetos img {
+        width: 34px;
+    }
+
+    .projetos h3 {
+        font-size: 8px;
+    }
+
+    .projetos p {
+        font-size: 4px;
+    }
+
+    .projetos-botão button {
+        width: 79px;
+        height: 26px;
+        margin-top: 32px;
+        font-size: 9px;
+        border-radius: 8px;
+    }
+
+    .projetos-circulo img{
+        width: 242px;
+    }
+
+    .Contato-conteiner {
+        width: 100%;
+        height: 298px;
+    }
+
+    .contato {
+        width: 100%;
+        height: fit-content;
+        top: 40px;
+    }
+
+    .contato h1 {
+        font-size: 20px;
+    }
+
+    .cleitin-sabio{
+        width: 161px;
+    }
+
+    .rede-socias {
+        margin-top: 30px;
+        gap: 36px;
+    }
+
+    .rede-socias div img {
+        width: 20px;
+    }
+
+    .rede-socias div p {
+        margin-top: 10px;
+        font-size: 8px;
+    }
+
+    .contato-background img {
+        overflow-x: hidden;
+        top: -210px;
+        width: 475px;
+    }
+}
