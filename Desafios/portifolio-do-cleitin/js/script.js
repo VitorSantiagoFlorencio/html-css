@@ -1,4 +1,4 @@
-const menuLinks = document.querySelectorAll('.sidenavi a[href^="#"]');
+const menuLinks = document.querySelectorAll('.nav-bar a[href^="#"]');
 
 function getDistanceFromTheTop(element){
     const id = element.getAttribute("href");
