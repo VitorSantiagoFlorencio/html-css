@@ -29,6 +29,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 32px;
 }
 
 .telefones {
@@ -43,7 +44,7 @@ body {
 .telefones img {
     position: absolute;
     width: 468px;
-    left: -68px;
+    left: -32px;
 }
 .direita {
     width: 350px;
