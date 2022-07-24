@@ -26,6 +26,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 30px;
 }
 
 body {
@@ -82,9 +83,9 @@ main {
 }
 
 .nav-menu {
+    display: flex;
     width: 325px;
     height: 387px;
-    display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
@@ -95,6 +96,7 @@ main {
     position: fixed;
     top: 116px;
     left: -231px;
+    z-index: 1;
 }
 
 .dashboard-conteiner {
@@ -134,10 +136,11 @@ main {
 }
 
 .conteiner-home {
+    width: auto;
     overflow: hidden;
     display: flex;
     height: 520px;
-    margin: 0px 67px 0px 130px;
+    padding: 0px 67px 0px 130px;
 }
 
 .background-mobile {
@@ -217,7 +220,12 @@ main {
     left: 20px;
 }
 
+.shape-background-mobile {
+    display: none;
+}
+
 .sobre-conteiner {
+    width: auto;
     overflow: hidden;
     height: 589px;
     padding-top: 18px;
@@ -328,10 +336,11 @@ main {
 }
 
 .servicos-conteiner {
-    height: fit-content;
+    width: auto;
+    height: 590px;
     overflow: hidden;
     padding-top: 18px;
-    margin: 0px 67px 0px 130px;
+    padding: 0px 67px 0px 130px;
     position: relative;
 }
 
@@ -449,13 +458,15 @@ main {
 }
 
 .project-conteiner {
-    height: 1264px;
-    padding-top: 18px;
     display: flex;
+    width: auto;
+    height: 1264px;
     flex-direction: column;
     align-items: center;
-    margin: 0px 67px 0px 130px;
+    padding-top: 18px;
+    padding: 30px 67px 0px 130px;
     position: relative;
+    background-color: var(--background-color-conteiner);
 }
 
 .HTML-e-CSS {
@@ -638,7 +649,7 @@ main {
     width: 100%;
     height: 614px;
     padding-top: 20px;
-    background-color: #FFFFFF;
+    background-color: var(--background-color);
 }
 
 .contact-conteiner {
@@ -812,7 +823,8 @@ main {
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: #F4F4F4;
+    border: 1px solid var(--button-color);
+    background-color: var(--nav-bar-color);
     color: var(--button-color);
 
 }
@@ -831,12 +843,12 @@ main {
     width: 533px;
     height: 40px;
     margin-bottom: 20px;
+    padding-left: 20px;
     font-size: 18px;
     border-radius: 16px;
-    border: none;
+    border: 1px solid var(--button-color);
     outline: none;
-    padding-left: 20px;
-    background-color: #F4F4F4;
+    background-color: var(--nav-bar-color);
     color: var(--button-color);
 }
 
@@ -844,15 +856,14 @@ main {
     width: 533px;
     height: 144px;
     padding: 10px;
+    padding-left: 20px;
     margin-bottom: 20px;
     font-size: 18px;
     font-family: var(--text-font);
     border-radius: 16px;
-    text-align: left;
-    border: none;
     outline: none;
-    padding-left: 20px;
-    background-color: #F4F4F4;
+    border: 1px solid var(--button-color);
+    background-color: var(--nav-bar-color);
     color: var(--button-color);
 }
 
