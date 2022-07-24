@@ -1,0 +1,577 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Jua&family=Nunito:wght@500&family=Open+Sans:wght@300&family=Poppins:wght@600&family=Roboto:wght@500&display=swap');
+
+:root{
+    --background-color: #F8F8F8;
+    --background-color-conteiner: #FFFFFF;
+    --background-color-shape: #D9D9D9;
+    --icon-color: #D9D9D9;
+    --nav-bar-font: 'Inter', sans-serif;
+    --title-font: 'Poppins', sans-serif;;
+    --subtitle-font: 'Nunito', sans-serif;
+    --text-font: 'Nunito', sans-serif;
+    --nav-bar-color: #FFFFFF;
+    --title-color: #776871;
+    --subtitle-color: #B1AEB0;
+    --text-color: #0F0A0A;
+    --button-color: #776871;
+}
+
+@media screen and (max-width: 890px){
+
+    .nav-menu {
+        display: none;
+    }
+
+    header {
+        display: none;
+    }
+
+    main {
+        display: flex;
+        gap: 24px;
+    }
+
+    .conteiner-home {
+        height: 333px;
+        margin: 0px 20px 0px 20px;
+    }
+
+    .background-mobile {
+        display: block;
+        width: 100%;
+    }
+    
+    .background-mobile img {
+        width: 100%;
+    }
+
+    .home-left {
+        width: 100%;
+        margin: 0px;
+    }
+    
+    .titles {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .titles h1 {
+        width: 340px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .titles h2 {
+        font-size: 26px;
+    }
+
+    .titles p {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .input label {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        padding: 0px;
+    }
+
+    .input label input {
+        width: 190px;
+        height: 38px;
+        font-size: 15px;
+    }
+
+    .input label button {
+        width: 70px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .home-right {
+        display: none;
+    }
+
+    .sobre-conteiner {
+        width: auto;
+        height: 696px;
+        margin: 0px;
+        padding: 20px 20px 0px 20px;
+    }
+
+    .sobre-mim {
+        width: fit-content;
+        height: fit-content;
+        padding: 5px 10px 5px 10px;
+        font-size: 18px;
+        font-weight: 200;
+    }
+
+    .title-conteiner-sobre {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title-sobre {
+        width: 252px;
+        height: fit-content;
+        margin-top: 30px;
+        position: inherit;
+        top: 0;
+        left: 0;
+    }
+
+    .title-sobre h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .text-sobre {
+        width: 100%;
+        display: flex;
+        margin-top: 30px;
+        flex-direction: column;
+        justify-content: inherit;
+        position: inherit;
+        top: 0;
+        left: 0;
+    }
+
+    .text-sobre p {
+        width: 100%;
+        height: fit-content;
+        font-size: 18px;
+    }
+
+    .text-sobre span {
+        margin-top: 20px;
+    }
+
+    .bolinha-preta {
+        top: 26px;
+        left: 103px;
+    }
+
+    .bolinha-listra {
+        width: 20px;
+        top: 16px;
+        left: 312px;
+    }
+
+    .quadrados-listras {
+        width: 300px;
+        top: 261px;
+        left: 2px;
+    }
+
+    .quadrados-invertidos {
+        width: 110px;
+        top: 649px;
+        left: 220px;
+    }
+
+    .potinhos {
+        width: 20px;
+        top: 194px;
+        left: 315px;
+    }
+
+    .abstract {
+        width: 131px;
+        top: 461px;
+        left: 244px;
+    }
+
+    .servicos-conteiner {
+        height: fit-content;
+        margin: 0px 20px 0px 20px;
+    }
+
+    .servicos-title {
+        width: fit-content;
+        height: fit-content;
+        padding: 5px 10px 5px 10px;
+        font-size: 18px;
+        font-weight: 200;
+    }
+
+    .cards-conteiner {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+
+    .cards {
+        width: 240px;
+        height: 280px;
+        border-radius: 20px;
+    }
+
+    .cards img {
+        width: 50px;
+        margin-bottom: 10px;
+    }
+
+    .cards h2 {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .cards p {
+        width: 240px;
+        font-size: 15px;
+    }
+
+    .object-x1 {
+        top: 365px;
+        left: 115px;
+    }
+
+    .object-x2 {
+        top: 0px;
+        left: 303px;
+    }
+
+    .object-x2 img {
+        width: 18px;
+    }
+
+    .object-x3 {
+        top: 966px;
+        left: 32px;
+    }
+
+    .bolinha {
+        top: 24px;
+        left: 54px;
+    }
+
+    .triangulo-linha {
+        top: 324px;
+        left: 11px;
+    }
+
+    .triangulo-linha img {
+        width: 160px;
+    }
+
+    .torre-quadrado {
+        top: 0px;
+        left: 299px;
+    }
+
+    .virados {
+        top: 690px;
+        left: 196px;
+    }
+
+    .project-conteiner {
+        display: flex;
+        width: auto;
+        height: fit-content;
+        margin: 0px 20px 0px 20px;
+    }
+
+    .HTML-e-CSS  {
+        margin-bottom: 20px;
+    }
+
+    .HTML-e-CSS h1 {
+        width: fit-content;
+        height: fit-content;
+        padding: 5px 10px 5px 10px;
+        margin-bottom: 19px;
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+    .HTML-e-CSS h2 {
+        width: 250px;
+        margin-bottom: 20px;
+        font-size: 16px;
+        font-weight: 200;
+    }
+
+    .lading-page {
+        width: 226px;
+        height: 148px;
+        margin-bottom: 19px;
+        border-radius: 17px;
+        background-size: 110%;
+    }
+
+    .lading {
+        width: fit-content;
+        height: fit-content;
+        padding: 2px 6px 2px 6px;
+        border-radius: 6px;
+        font-size: 13px;
+    }
+
+    .Portfólio-cleitin {
+        width: 226px;
+        height: 148px;
+        margin-bottom: 19px;
+        border-radius: 17px;
+        background-size: 110%;
+    }
+
+    .portfolio {
+        width: fit-content;
+        height: fit-content;
+        padding: 2px 6px 2px 6px;
+        border-radius: 6px;
+        font-size: 13px;
+    }
+
+    .login-instagram {
+        width: 226px;
+        height: 148px;
+        margin-bottom: 19px;
+        border-radius: 17px;
+        background-size: 110%;
+    }
+
+    .instagram {
+        width: fit-content;
+        height: fit-content;
+        padding: 2px 6px 2px 6px;
+        border-radius: 6px;
+        font-size: 13px;
+    }
+
+    .motion-design h1 {
+        width: fit-content;
+        height: fit-content;
+        padding: 5px 10px 5px 10px;
+        margin-bottom: 19px;
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+    .motion-design h2 {
+        width: 250px;
+        margin-bottom: 20px;
+        font-size: 16px;
+        font-weight: 200;
+    }
+
+    .breve {
+        width: 226px;
+        height: 148px;
+        margin-bottom: 19px;
+        border-radius: 17px;
+        background-size: 110%;
+    }
+
+    .breve-button {
+        width: fit-content;
+        height: fit-content;
+        padding: 2px 6px 2px 6px;
+        border-radius: 6px;
+        font-size: 13px;
+    }
+
+    .contato-conteiner {
+        height: fit-content;
+    }
+
+    .contact-conteiner {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0px 10px 0px;
+        margin: 0px 20px 0px 20px;
+    }
+    
+    .rede-conteiner {
+        width: 100%;
+        height: fit-content;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .redes-socias {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .rede-conteiner h1 {
+        width: fit-content;
+        height: fit-content;
+        padding: 5px 10px 5px 10px;
+        margin-bottom: 19px;
+        font-size: 20px;
+        font-weight: 100;   
+    }
+
+    .rede-conteiner h2 {
+        width: 170px;
+        margin-bottom: 20px;
+        font-size: 14px;
+        font-weight: 200;
+    }
+
+    .whatsapp-conteiner {
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .whatsapp {
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .whatsapp i {
+        font-size: 22px;
+    }
+
+    .text-whatsapp span {
+        font-size: 15px;
+    }
+
+    .text-whatsapp p {
+        font-size: 13px;
+    }
+
+    .Linkedin-conteiner {
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .linkedin {
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .linkedin i {
+        font-size: 22px;
+    }
+
+    .text-linkedin {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-linkedin span {
+        font-size: 15px;
+    }
+
+    .text-linkedin p {
+        font-size: 13px;
+    }
+
+    .Telefone-conteiner {
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .telefone {
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .telefone i {
+        font-size: 22px;
+    }
+
+    .text-telefone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-telefone span {
+        font-size: 15px;
+    }
+
+    .text-telefone p {
+        font-size: 13px;
+    }
+
+    .linha-contato::after {
+        width: 200px;
+        height: 3px; 
+    }
+
+    .dados-pessoais {
+        margin-bottom: 10px;
+        height: fit-content;
+        display: flex;
+    }
+
+    .input-conteiner {
+        margin: 20px 20px 0px 20px;
+    }
+
+    .input-dados-pessoais {
+        display: flex;
+        height: fit-content;
+        flex-direction: column;
+        margin-bottom: 10px;
+
+    }
+
+    .input-dados-pessoais input {
+        width: 155px;
+        height: 26px;
+        margin-right: 10px;
+        font-size: 12px;
+    }
+
+    .software-contato {
+        width: 155px;
+        height: 26px;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .texto-contato {
+        width: 100%;
+        height: 97px;
+        font-size: 12px;
+    }
+
+    .button-contato {
+        width: 70px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+
+
+
+
+
+
+
+    
+    .backgroud-shapes {
+        display: none;
+    }
+
+}
