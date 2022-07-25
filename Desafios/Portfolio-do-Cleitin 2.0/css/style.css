@@ -213,16 +213,21 @@ main {
 .aviso {
     width: fit-content;
     height: fit-content;
-    padding: 6px;
-    font-size: 15px;
-    border-radius: 9px;
-    background-color: #776871;
-    color: #FFFFFF;
     opacity: 0;
     transition: 0.1s;
     position: absolute;
     top: 390px;
     left: 30%;
+}
+
+.aviso span {
+    width: fit-content;
+    height: fit-content;
+    padding: 6px;
+    font-size: 15px;
+    border-radius: 9px;
+    background-color: #776871;
+    color: #FFFFFF;
 }
 
 .input label:hover .aviso {

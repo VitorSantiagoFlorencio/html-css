@@ -106,7 +106,11 @@
     }
 
     .aviso {
-        left: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        top: 435px;
+        left: inherit;
     }
 
     .home-right {
