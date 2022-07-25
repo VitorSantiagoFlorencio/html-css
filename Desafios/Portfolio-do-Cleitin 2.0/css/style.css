@@ -34,8 +34,8 @@ body {
     height: 100vh;
     display: block;
     background-color: var(--background-color);
-    font-family: var(--text-font);
     color: var(--text-color);
+    font-family: var(--text-font);
     overflow: auto;
     position: relative;
 }
@@ -49,10 +49,10 @@ header {
 
 .conteiner-nav {
     width: 100%;
-    margin: 0px 67px 0px 67px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    margin: 0px 67px 0px 67px;
 }
 
 .nav-bar {
@@ -120,11 +120,11 @@ main {
     position: absolute;
     left: -12px;
     padding: 4px;
+    font-size: 15px;
     color: var(--text-color);
     background-color: #C8C6C7;
     box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.25);
     border-radius: 3px;
-    font-size: 15px;
     z-index: -1;
     opacity: 0;
     transition: 0.1s;
@@ -137,9 +137,8 @@ main {
 
 .conteiner-home {
     width: auto;
-    overflow: hidden;
-    display: flex;
     height: 520px;
+    display: flex;
     padding: 0px 67px 0px 130px;
 }
 
@@ -148,9 +147,9 @@ main {
 }
 
 .home-left {
+    display: flex;
     width: 609px;
     margin-right: 32px;
-    display: flex;
     flex-direction: column;
     justify-content: center;
 }
@@ -163,15 +162,15 @@ main {
 }
 
 .titles h2 {
-    color: var(--subtitle-color);
     font-family: var(--subtitle-font);
     font-size: 40px;
+    color: var(--subtitle-color);
 }
 
 .titles p {
-    color: var(--text-color);
     font-family: var(--text-font);
     font-size: 18px;
+    color: var(--text-color);
 }
 
 .input {
@@ -180,9 +179,9 @@ main {
 
 .input label {
     display: flex;
-    font-size: 20px;
     flex-direction: column;
     padding-left: 30px;
+    font-size: 20px;
 }
 
 .input label input {
@@ -191,21 +190,42 @@ main {
     margin-top: 7px;
     padding-left: 20px;
     font-size: 20px;
-    background-color: #D9D9D9;
     outline: none;
+    background-color: #D9D9D9;
     border: none;
     border-radius: 10px;
+    position: relative;
 }
 
 .input label button {
     width: 123px;
     height: 38px;
-    background-color: var(--button-color);
-    color: #FFFFFF;
     margin-top: 15px;
     font-size: 18px;
     border: none;
     border-radius: 20px;
+    background-color: var(--button-color);
+    color: #FFFFFF;
+}
+
+.aviso {
+    width: fit-content;
+    height: fit-content;
+    padding: 6px;
+    font-size: 15px;
+    border-radius: 9px;
+    background-color: #776871;
+    color: #FFFFFF;
+    opacity: 0;
+    transition: 0.1s;
+    position: absolute;
+    top: 390px;
+    left: 30%;
+}
+
+.input label:hover .aviso {
+    top: 390px;
+    opacity: 1;
 }
 
 .home-right {
@@ -226,12 +246,11 @@ main {
 
 .sobre-conteiner {
     width: auto;
-    overflow: hidden;
     height: 589px;
     padding-top: 18px;
     padding-left: 130px;
-    position: relative;
     background-color: #FFFFFF;
+    position: relative;
     z-index: -1;
 }
 
@@ -241,9 +260,9 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 5px;
     color: #FFFFFF;
     background-color: var(--background-color-shape);
+    border-radius: 5px;
 }
 
 .title-conteiner-sobre {
@@ -267,10 +286,10 @@ main {
     display: flex;
     width: 652px;
     height: 310px;
-    padding: 30px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 30px;
     background-color: #EAEAEA;
     box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
@@ -338,7 +357,6 @@ main {
 .servicos-conteiner {
     width: auto;
     height: 590px;
-    overflow: hidden;
     padding-top: 18px;
     padding: 0px 67px 0px 130px;
     position: relative;
@@ -348,22 +366,22 @@ main {
     width: 159px;
     height: 41px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    background-color: var(--background-color-shape);
     border-radius: 5px;
     color: #FFFFFF;
-    background-color: var(--background-color-shape);
 }
 
 .cards-conteiner {
     width: 100%;
     height: fit-content;
-    margin-top: 49px;
     display: flex;
-    gap: 31px;
+    margin-top: 20px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 31px;
 }
 
 .cards {
@@ -371,10 +389,10 @@ main {
     height: 384px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    border-radius: 38px;
+    align-items: center;
     background-color: var(--background-color-shape);
+    border-radius: 38px;
 }
 
 .cards img {
@@ -465,8 +483,8 @@ main {
     align-items: center;
     padding-top: 18px;
     padding: 30px 67px 0px 130px;
-    position: relative;
     background-color: var(--background-color-conteiner);
+    position: relative;
 }
 
 .HTML-e-CSS {
@@ -483,8 +501,8 @@ main {
     font-size: 36px;
     font-family: var(--title-font);
     color: #FFFFFF;
-    border-radius: 9px;
     background-color: var(--background-color-shape);
+    border-radius: 9px;
 }
 
 .HTML-e-CSS h2 {
@@ -514,8 +532,8 @@ main {
     width: 331px;
     height: 199px;
     margin-bottom: 19px;
-    border-radius: 27px;
     background-image: url(../img/Background/lading-page.png);
+    border-radius: 27px;
     filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
@@ -524,10 +542,10 @@ main {
     height: 31px;
     font-size: 18px;
     font-family: var(--subtitle-font);
-    color: #FFFFFF;
     background-color: #1E9060;
     border: none;
     border-radius: 9px;
+    color: #FFFFFF;
 }
 
 .portfólio-conteiner {
@@ -541,8 +559,8 @@ main {
     width: 331px;
     height: 199px;
     margin-bottom: 19px;
-    border-radius: 27px;
     background-image: url(../img/Background/portfolio-cleitin.png);  
+    border-radius: 27px;
     filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25)); 
 }
 
@@ -568,8 +586,8 @@ main {
     width: 331px;
     height: 199px;
     margin-bottom: 19px;
-    border-radius: 27px;
     background-image: url(../img/Background/instagram.png);  
+    border-radius: 27px;
     filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25)); 
 }
 
@@ -597,9 +615,9 @@ main {
     margin-bottom: 29px;
     font-size: 36px;
     font-family: var(--title-font);
-    color: #FFFFFF;
     border-radius: 9px;
     background-color: var(--background-color-shape);
+    color: #FFFFFF;
 }
 
 .motion-design h2 {
@@ -639,10 +657,10 @@ main {
     height: 31px;
     font-size: 18px;
     font-family: var(--subtitle-font);
-    color: #FFFFFF;
     background-color: #C8C6C7;
     border: none;
     border-radius: 9px;
+    color: #FFFFFF;
 }
 
 .contato-conteiner {
@@ -654,10 +672,10 @@ main {
 
 .contact-conteiner {
     height: 100%;
-    padding-left: 130px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding-left: 130px;
 }
 
 .rede-conteiner {
@@ -675,15 +693,15 @@ main {
 }
 
 .rede-conteiner h1 {
+    display: flex;
     width: 159px;
     height: 41px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-bottom: 32px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color-shape);
     border-radius: 5px;
     color: #FFFFFF;
-    background-color: var(--background-color-shape);
 }
 
 .rede-conteiner h2 {
@@ -819,12 +837,11 @@ main {
     height: 40px;
     padding-left: 20px;
     margin-right: 67px;
-    border-radius: 16px;
     font-size: 18px;
-    border: none;
-    outline: none;
-    border: 1px solid var(--button-color);
     background-color: var(--nav-bar-color);
+    border: 1px solid var(--button-color);
+    border-radius: 16px;
+    outline: none;
     color: var(--button-color);
 
 }
@@ -845,10 +862,10 @@ main {
     margin-bottom: 20px;
     padding-left: 20px;
     font-size: 18px;
-    border-radius: 16px;
-    border: 1px solid var(--button-color);
     outline: none;
     background-color: var(--nav-bar-color);
+    border-radius: 16px;
+    border: 1px solid var(--button-color);
     color: var(--button-color);
 }
 
@@ -858,12 +875,12 @@ main {
     padding: 10px;
     padding-left: 20px;
     margin-bottom: 20px;
+    outline: none;
     font-size: 18px;
     font-family: var(--text-font);
-    border-radius: 16px;
-    outline: none;
-    border: 1px solid var(--button-color);
     background-color: var(--nav-bar-color);
+    border-radius: 16px;
+    border: 1px solid var(--button-color);
     color: var(--button-color);
 }
 
@@ -872,11 +889,11 @@ main {
     height: 40px;
     font-size: 18px;
     font-family: var(--text-font);
-    border: none;
     outline: none;
+    background-color: var(--button-color);
+    border: none;
     border-radius: 16px;
     color: white;
-    background-color: var(--button-color);
 }
 
 .backgroud-shapes {
