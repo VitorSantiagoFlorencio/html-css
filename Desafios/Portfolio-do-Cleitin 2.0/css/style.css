@@ -136,6 +136,7 @@ main {
 }
 
 .conteiner-home {
+    overflow: hidden;
     width: auto;
     height: 520px;
     display: flex;
@@ -197,10 +198,11 @@ main {
     position: relative;
 }
 
-.input label button {
+.input button {
     width: 123px;
     height: 38px;
     margin-top: 15px;
+    margin-left: 30px;
     font-size: 18px;
     border: none;
     border-radius: 20px;
